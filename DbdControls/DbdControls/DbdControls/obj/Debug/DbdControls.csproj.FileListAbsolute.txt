@@ -1,8 +1,0 @@
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\Bin\Debug\DbdControls.dll
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\Bin\Debug\DbdControls.pdb
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\CarouselControl.g.cs
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\CarouselStation.g.cs
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\DbdControls.g.resources
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\DbdControls.dll
-C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\obj\Debug\DbdControls.pdb
