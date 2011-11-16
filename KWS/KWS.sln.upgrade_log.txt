@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------------------------------
+C:\Users\Owner\Documents\Expression\Blend 4\Projects\KWS\DbdControls\DbdControls\DbdControls\DbdControls.csproj
+---------------------------------------------------------------------------------------------------------------
+Updating <Import> from '$(MSBuildExtensionsPath)\Microsoft\Silverlight\v2.0\Microsoft.Silverlight.CSharp.targets' to '$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets'
+Updating <TargetFrameworkVersion> value from 'v3.5' to 'v3.0'
+Setting <TargetFrameworkIdentifier> value to ''
+Setting <SilverlightVersion> value to ''
+Setting <ExpressionBlendVersion> value to '4.0.20525.0'
+Updating ToolsVersion from '3.5' to '4.0'
+Saving file
+
+

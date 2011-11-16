@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWS", "KWS\KWS.csproj", "{1a9d2432-27f3-4c09-a8ef-0f75ac310854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbdControls", "..\DbdControls\DbdControls\DbdControls\DbdControls.csproj", "{06536354-f9e1-4049-aa59-5d7d0efca9f8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9D2432-27F3-4C09-A8EF-0F75AC310854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9D2432-27F3-4C09-A8EF-0F75AC310854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9D2432-27F3-4C09-A8EF-0F75AC310854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9D2432-27F3-4C09-A8EF-0F75AC310854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06536354-F9E1-4049-AA59-5D7D0EFCA9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06536354-F9E1-4049-AA59-5D7D0EFCA9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06536354-F9E1-4049-AA59-5D7D0EFCA9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06536354-F9E1-4049-AA59-5D7D0EFCA9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
