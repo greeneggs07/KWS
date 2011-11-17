@@ -1,0 +1,12 @@
+c:\users\caul\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\users\caul\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\users\caul\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\caul\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\users\caul\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+F:\GestureManager\GestureManager\bin\Debug\ClassLibrary1.dll
+F:\GestureManager\GestureManager\bin\Debug\ClassLibrary1.pdb
+F:\GestureManager\GestureManager\bin\Debug\ClassLibrary2.dll
+F:\GestureManager\GestureManager\bin\Debug\ClassLibrary2.pdb
+F:\GestureManager\GestureManager\obj\Debug\ResolveAssemblyReference.cache
+F:\GestureManager\GestureManager\obj\Debug\ClassLibrary1.dll
+F:\GestureManager\GestureManager\obj\Debug\ClassLibrary1.pdb
