@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InputData
+namespace KWS
 {
     [Serializable]
     public struct Vector3
@@ -17,7 +17,7 @@ namespace InputData
             }
         }
 
-        public Vector3(float x, float y, float z)
+        public Vector3(float x = 0, float y = 0, float z = 0)
         {
             X = x;
             Y = y;

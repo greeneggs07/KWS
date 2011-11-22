@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InputData
+namespace KWS
 {
     public static class MathHelper
     {

@@ -1,34 +1,48 @@
-﻿namespace Deck
+﻿using KWS;
+
+namespace KWS_Deck
 {
     public class Deck
     {
         protected int currentIndex;
-        private Card.Card[] cards = new Card.Card[50];
-        private Card.Card currentCard;
-        private const int lastCard = 49;
-        private const int firstCard = 0;
+        private Card[] cards;
+        private int size; //size of card array, passed in during construction
+        private int lastCard;
+        private int firstCard = 0;
 
-        //currently not implemented because I don't know how
-        public bool loadSlides(Presentation ppt)
+        public Deck(int size)
         {
-            //do stuff
-            return false;
+            cards = new Card[size];
+            this.size = size;
+            lastCard = size - 1;
         }
 
-        public Card.Card getNext(Card.Card next)
+        public Card getNext(Card next)
         {
-            if (next.index + 1 >= 50)
+            if (next.index + 1 >= size)
+            {
+                currentIndex = firstCard;
                 return cards[firstCard];
+            }
             else
-                return cards[next.index + 1];
+            {
+                currentIndex++;
+                return cards[currentIndex];
+            }
         }
 
-        public Card.Card getPrev(Card.Card next)
+        public Card getPrev(Card next)
         {
             if (next.index - 1 < 0)
+            {
+                currentIndex = lastCard;
                 return cards[lastCard];
+            }
             else
-                return cards[next.index - 1];
+            {
+                currentIndex--;
+                return cards[currentIndex];
+            }
         }
 
         public void clear()
@@ -39,9 +53,11 @@
             }
         }
 
-        public void draw()
+        public void swap(Card card)
         {
-            //do stuff
+            Card temp = cards[currentIndex];
+            cards[currentIndex] = card;
+
         }
     }
 }

@@ -3,3 +3,6 @@ F:\GestureManager\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
 F:\GestureManager\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
 F:\GestureManager\ClassLibrary2\obj\Debug\ClassLibrary2.dll
 F:\GestureManager\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+E:\Kinect.Project\InputData\obj\Debug\ResolveAssemblyReference.cache
+E:\Kinect.Project\InputData\obj\Debug\ClassLibrary2.dll
+E:\Kinect.Project\InputData\obj\Debug\ClassLibrary2.pdb

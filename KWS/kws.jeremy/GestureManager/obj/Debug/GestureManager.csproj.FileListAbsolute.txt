@@ -10,3 +10,6 @@ F:\GestureManager\GestureManager\bin\Debug\ClassLibrary2.pdb
 F:\GestureManager\GestureManager\obj\Debug\ResolveAssemblyReference.cache
 F:\GestureManager\GestureManager\obj\Debug\ClassLibrary1.dll
 F:\GestureManager\GestureManager\obj\Debug\ClassLibrary1.pdb
+E:\Kinect.Project\GestureManager\obj\Debug\ResolveAssemblyReference.cache
+E:\Kinect.Project\GestureManager\obj\Debug\ClassLibrary1.dll
+E:\Kinect.Project\GestureManager\obj\Debug\ClassLibrary1.pdb

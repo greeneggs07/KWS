@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Microsoft.Research.Kinect.Nui;
 using Vector = Microsoft.Research.Kinect.Nui.Vector;
 
-namespace InputData
+namespace KWS
 {
-    public class GestureDetector
+    public class GestureManager
     {
         const float SwipeMinimalLength = 0.4f;
         const float SwipeMaximalHeight = 0.2f;
@@ -17,11 +17,10 @@ namespace InputData
 
         readonly List<Entry> entries = new List<Entry>();
 
-        public event Action<int> OnGestureDetected;
-
         DateTime lastGestureDate = DateTime.Now;
 
-        InputData gestureData = new InputData();
+        InputData gestureData = new InputData(new Vector3(0,0));
+        InputData currentPosition = new InputData(new Vector3(0, 0));
 
         readonly int windowSize;
         
@@ -30,7 +29,7 @@ namespace InputData
             return gestureData;
         }
 
-        protected GestureDetector(int windowSize = 20)
+        protected GestureManager(int windowSize = 20)
         {
             this.windowSize = windowSize;
             MinimalPeriodBetweenGestures = 0;
@@ -48,33 +47,18 @@ namespace InputData
 
         public virtual void Add(Vector position, SkeletonEngine engine)
         {
-            Entry newEntry = new Entry { Position = position.ToVector3(), Time = DateTime.Now };
-            Entries.Add(newEntry);
+            currentPosition = new InputData(position.ToVector3(), 0);
             LookForGesture();
-        }
-        protected void getCurrentPoint()
-        {
-            Entries.ForEach(e =>
-            {
-                gestureData = new InputData(e.Position);
-            });
-            Entries.Clear();
         }
 
         protected void RaiseGestureDetected(int gesture)
         {
             if (DateTime.Now.Subtract(lastGestureDate).TotalMilliseconds > MinimalPeriodBetweenGestures)
             {
-                if (OnGestureDetected != null)
-                    OnGestureDetected(gesture);
-
+                gestureData = new InputData(currentPosition.point, gesture);
                 lastGestureDate = DateTime.Now;
             }
-            Entries.ForEach(e =>
-            {
-                gestureData = new InputData(e.Position, gesture);
-            });
-            Entries.Clear();
+            
         }
         
         bool ScanPositions(Func<Vector3, Vector3, bool> heightFunction, Func<Vector3, Vector3, bool> directionFunction, Func<Vector3, Vector3, bool> lengthFunction, int minTime, int maxTime)

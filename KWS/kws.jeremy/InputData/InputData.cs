@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InputData
+namespace KWS
 {
     public class InputData
     {
 
-        protected int action;
-        protected Vector3 point;
+        public int action;
+        public Vector3 point;
 
-        public InputData(Vector3 point = new Vector3(), int action = 0)
+        public InputData(Vector3 point, int action = 0)
         {
             this.action = action;
             this.point = point;

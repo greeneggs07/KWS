@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary3\Card.csproj">
+    <ProjectReference Include="..\Card\Card.csproj">
       <Project>{F90B05C6-CBA2-443D-BA31-00139B91BC1A}</Project>
       <Name>Card</Name>
     </ProjectReference>
